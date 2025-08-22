@@ -11,7 +11,7 @@ public abstract class VitalsChecker {
     if (!tempOk) {
       showWarning("Temperature is critical!");
     } else if (!pulseOk) {
-        showWarning("Temperature is critical!");
+        showWarning("Pulse Rate is critical!");
     } else if (!spo2Ok) {
       showWarning("Oxygen Saturation out of range!");
     }
